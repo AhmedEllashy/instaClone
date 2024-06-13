@@ -26,10 +26,10 @@ class SignInViewController: UIViewController {
     var passwordTextField : UITextField = {
         let textField = UITextField()
         textField.placeholder = "Enter your password..."
-        textField.keyboardType = .default
+//        textField.keyboardType = .default
         textField.borderStyle = .none
-        textField.textContentType = .password
-        textField.isOpaque = true
+//        textField.textContentType = .password
+//        textField.isOpaque = true
         return textField
     }()
   
@@ -59,6 +59,6 @@ class SignInViewController: UIViewController {
         passwordView.layer.cornerRadius = 10
         loginButton.layer.cornerRadius = 10
         emailTextField.frame = CGRect(x: 10, y: 0, width: emailView.width - 10, height: emailView.height)
-        passwordView.frame = CGRect(x: 10, y: 0, width: passwordView.width - 10, height: passwordView.height)
+        passwordTextField.frame = CGRect(x: 10, y: 0, width: passwordView.width - 10, height: passwordView.height)
     }
 }
