@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205594E62C1A87280057FADC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205594E42C1A87280057FADC /* SignInViewController.swift */; };
+		205594E72C1A87280057FADC /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205594E52C1A87280057FADC /* SignInViewController.xib */; };
 		20CC74012C191640005F64B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74002C191640005F64B4 /* AppDelegate.swift */; };
 		20CC74032C191640005F64B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74022C191640005F64B4 /* SceneDelegate.swift */; };
-		20CC74052C191640005F64B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74042C191640005F64B4 /* ViewController.swift */; };
-		20CC74082C191640005F64B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CC74062C191640005F64B4 /* Main.storyboard */; };
 		20CC740A2C191643005F64B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CC74092C191643005F64B4 /* Assets.xcassets */; };
 		20CC740D2C191643005F64B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CC740B2C191643005F64B4 /* LaunchScreen.storyboard */; };
 		20CC74182C191644005F64B4 /* InstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74172C191644005F64B4 /* InstaTests.swift */; };
 		20CC74222C191644005F64B4 /* InstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74212C191644005F64B4 /* InstaUITests.swift */; };
 		20CC74242C191644005F64B4 /* InstaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74232C191644005F64B4 /* InstaUITestsLaunchTests.swift */; };
+		20CC74352C19176F005F64B4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC74332C19176F005F64B4 /* WelcomeViewController.swift */; };
+		20CC74362C19176F005F64B4 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CC74342C19176F005F64B4 /* WelcomeViewController.xib */; };
+		20F70CB92C191F6300F3322A /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F70CB82C191F6300F3322A /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205594E42C1A87280057FADC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		205594E52C1A87280057FADC /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		20CC73FD2C191640005F64B4 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CC74002C191640005F64B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CC74022C191640005F64B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20CC74042C191640005F64B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20CC74072C191640005F64B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CC74092C191643005F64B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CC740C2C191643005F64B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CC740E2C191643005F64B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		20CC741D2C191644005F64B4 /* InstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CC74212C191644005F64B4 /* InstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUITests.swift; sourceTree = "<group>"; };
 		20CC74232C191644005F64B4 /* InstaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20CC74332C19176F005F64B4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		20CC74342C19176F005F64B4 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		20F70CB82C191F6300F3322A /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205594E32C1A87140057FADC /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				205594E42C1A87280057FADC /* SignInViewController.swift */,
+				205594E52C1A87280057FADC /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		20CC73F42C191640005F64B4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +114,12 @@
 		20CC73FF2C191640005F64B4 /* Insta */ = {
 			isa = PBXGroup;
 			children = (
-				20CC74002C191640005F64B4 /* AppDelegate.swift */,
-				20CC74022C191640005F64B4 /* SceneDelegate.swift */,
-				20CC74042C191640005F64B4 /* ViewController.swift */,
-				20CC74062C191640005F64B4 /* Main.storyboard */,
-				20CC74092C191643005F64B4 /* Assets.xcassets */,
-				20CC740B2C191643005F64B4 /* LaunchScreen.storyboard */,
+				20CC74312C19169B005F64B4 /* Presentation */,
+				20CC74382C191984005F64B4 /* Network */,
+				20CC74372C19197E005F64B4 /* Logic */,
+				20CC74302C19166E005F64B4 /* App */,
 				20CC740E2C191643005F64B4 /* Info.plist */,
+				20CC74392C19199B005F64B4 /* Resources */,
 			);
 			path = Insta;
 			sourceTree = "<group>";
@@ -125,6 +139,57 @@
 				20CC74232C191644005F64B4 /* InstaUITestsLaunchTests.swift */,
 			);
 			path = InstaUITests;
+			sourceTree = "<group>";
+		};
+		20CC74302C19166E005F64B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20CC74002C191640005F64B4 /* AppDelegate.swift */,
+				20CC74022C191640005F64B4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		20CC74312C19169B005F64B4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				205594E32C1A87140057FADC /* SignIn */,
+				20CC74322C19174C005F64B4 /* Welcome */,
+				20CC740B2C191643005F64B4 /* LaunchScreen.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		20CC74322C19174C005F64B4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				20CC74332C19176F005F64B4 /* WelcomeViewController.swift */,
+				20CC74342C19176F005F64B4 /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		20CC74372C19197E005F64B4 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		20CC74382C191984005F64B4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		20CC74392C19199B005F64B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20CC74092C191643005F64B4 /* Assets.xcassets */,
+				20F70CB82C191F6300F3322A /* extensions.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +296,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205594E72C1A87280057FADC /* SignInViewController.xib in Resources */,
 				20CC740D2C191643005F64B4 /* LaunchScreen.storyboard in Resources */,
 				20CC740A2C191643005F64B4 /* Assets.xcassets in Resources */,
-				20CC74082C191640005F64B4 /* Main.storyboard in Resources */,
+				20CC74362C19176F005F64B4 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CC74052C191640005F64B4 /* ViewController.swift in Sources */,
+				20CC74352C19176F005F64B4 /* WelcomeViewController.swift in Sources */,
 				20CC74012C191640005F64B4 /* AppDelegate.swift in Sources */,
 				20CC74032C191640005F64B4 /* SceneDelegate.swift in Sources */,
+				205594E62C1A87280057FADC /* SignInViewController.swift in Sources */,
+				20F70CB92C191F6300F3322A /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20CC74062C191640005F64B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20CC74072C191640005F64B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20CC740B2C191643005F64B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +507,6 @@
 				INFOPLIST_FILE = Insta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +534,6 @@
 				INFOPLIST_FILE = Insta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
