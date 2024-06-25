@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="2cH-e0-OeL">
-                                <rect key="frame" x="96.666666666666686" y="326" width="200.00000000000006" height="200"/>
+                                <rect key="frame" x="96.666666666666686" y="351" width="200" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1Tp-JP-I93"/>
-                                    <constraint firstAttribute="height" constant="200" id="Iu0-Q8-5XP"/>
+                                    <constraint firstAttribute="height" constant="150" id="Iu0-Q8-5XP"/>
                                 </constraints>
                             </imageView>
                         </subviews>

@@ -28,4 +28,8 @@ extension UIView {
     }
 }
 
-
+extension Notification.Name{
+    static let lovePostButtonPressed = Notification.Name("loveButtonPressed")
+    static let commentsPostButtonPressed = Notification.Name("commentsButtonPressed")
+    static let sharePostButtonPressed = Notification.Name("sharePostButtonPressed")
+}

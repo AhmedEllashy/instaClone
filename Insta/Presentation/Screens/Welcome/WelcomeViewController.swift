@@ -13,18 +13,21 @@ class WelcomeViewController: UIViewController {
     //MARK: - UIViews
     @IBOutlet weak var welcomeLabel : UILabel!
     @IBOutlet weak var welcomeButtonsView: UIView!
-    var signInWithGoogleButton : UIButton = {
+    @IBOutlet weak var contentView: UIView!
+    private lazy var signInWithGoogleButton : UIButton = {
         let button : UIButton = UIButton(frame: .zero)
-        let image = UIImage(named: "instagram")
+//        let image = UIImage(named: "instagram")
         //Warning!!! Still Didnot config Image Size right
-        image?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 15))
-        button.setImage(image, for: .normal)
+//        button.setImage(image, for: .normal)
+//        button.imageView?.contentMode = .scaleAspectFit
         button.setTitle("Sign in With Google", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .systemRed
         button.layer.cornerRadius = 12.0
+        button.addTarget(self, action: #selector(didTapSignInWithGoogle), for: .touchUpInside)
         return button
     }()
+    
     var signInWithFaceBookButton : UIButton = {
         let button : UIButton = UIButton(frame: .zero)
         button.setTitle("Sign in With Facebook", for: .normal)
@@ -47,6 +50,9 @@ class WelcomeViewController: UIViewController {
         welcomeButtonsView.addSubview(signInWithGoogleButton)
         welcomeButtonsView.addSubview(signInWithFaceBookButton)
         welcomeButtonsView.addSubview(signInWithAppleButton)
+        let vc = MainTabBarController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc,animated: true)
         
     }
     override func viewDidLayoutSubviews() {
@@ -56,10 +62,15 @@ class WelcomeViewController: UIViewController {
     
     //MARK: - Functions
    private func configUIViews(){
-        view.clipsToBounds = true
-        signInWithGoogleButton.frame = CGRect(x: 0, y: 20, width: view.width, height: 60)
-        signInWithFaceBookButton.frame = CGRect(x: 0, y: signInWithGoogleButton.bottom + 20, width: view.width, height: 60)
-        signInWithAppleButton.frame = CGRect(x: 0, y: signInWithFaceBookButton.bottom + 20, width: view.width, height: 60)
+//        view.clipsToBounds = true
+        signInWithGoogleButton.frame = CGRect(x: 0, y: 20, width: contentView.width, height: 60)
+        signInWithFaceBookButton.frame = CGRect(x: 0, y: signInWithGoogleButton.bottom + 20, width: contentView.width, height: 60)
+        signInWithAppleButton.frame = CGRect(x: 0, y: signInWithFaceBookButton.bottom + 20, width: contentView.width, height: 60)
+    }
+    @objc private func didTapSignInWithGoogle(){
+        let vc = SignInViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }

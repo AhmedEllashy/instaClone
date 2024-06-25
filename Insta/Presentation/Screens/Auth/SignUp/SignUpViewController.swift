@@ -38,10 +38,10 @@ class SignUpViewController: UIViewController {
     var passwordTextField : UITextField = {
         let textField = UITextField()
         textField.placeholder = "password"
-//        textField.keyboardType = .default
+        textField.keyboardType = .default
         textField.borderStyle = .none
-//        textField.textContentType = .password
-//        textField.isOpaque = true
+        textField.textContentType = .password
+        textField.isSecureTextEntry = true
         return textField
     }()
     var mobileNumberTextField : UITextField = {
@@ -70,9 +70,10 @@ class SignUpViewController: UIViewController {
         passwordView.addSubview(passwordTextField)
         mobileView.addSubview(mobileNumberTextField)
         titleLabel.text = """
-    Sign up to see photos and videos
-    from your friends.
-    """
+Sign up to see photos and videos
+from your friends.
+"""
+        
         privacyLabel.text = """
   By Signing up, you agree to our
 Terms, Data policy, and Cookies
@@ -98,6 +99,8 @@ policy.
         print("sign in tapped")
     }
     @IBAction func didTapLogin(_ sender: UIButton){
-        print("login tapped")
+        let vc = SignInViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
